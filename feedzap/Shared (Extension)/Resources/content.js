@@ -25,7 +25,14 @@ const siteFeedSelectors = {
   ],
   facebook: ['[aria-label="Stories"]', '[role="main"]'],
   instagram: ['[role="main"]', '[role="contentinfo"]'],
-  tiktok: ['[id="main-content-explore_page"]'],
+  tiktok: [
+    '[id="main-content-explore_page"]',
+    '[id="main-content-homepage_hot"]',
+    '[data-e2e="nav-foryou"]',
+    '[data-e2e="nav-explore"]',
+    '[data-e2e="nav-following"]',
+    '[data-e2e="nav-live"]',
+  ],
   youtube: ['[id="primary"]'],
 };
 
