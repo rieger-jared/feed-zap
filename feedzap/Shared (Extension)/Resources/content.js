@@ -13,7 +13,11 @@ const siteMap = {
 const siteFeedSelectors = {
   x: ['[aria-label="Timeline: Your Home Timeline"]', '[aria-label="Home"]'],
   linkedin: ['[aria-label="Main Feed"]', '[aria-label="LinkedIn News"]'],
-  reddit: ["main", '[class="masthead w-full"]'],
+  reddit: [
+    "main",
+    '[class="masthead w-full"]',
+    '[id="right-sidebar-container"]',
+  ],
   facebook: ['[aria-label="Stories"]', '[role="main"]'],
   instagram: ['[role="main"]', '[role="contentinfo"]'],
   tiktok: ['[id="main-content-explore_page"]'],
