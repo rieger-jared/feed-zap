@@ -5,6 +5,7 @@ const siteMap = {
   linkedin: ["www.linkedin.com"],
   reddit: ["www.reddit.com"],
   facebook: ["www.facebook.com"],
+  instagram: ["www.instagram.com"],
 };
 
 const siteFeedSelectors = {
@@ -12,6 +13,7 @@ const siteFeedSelectors = {
   linkedin: ['[aria-label="Main Feed"]'],
   reddit: ["main", '[class="masthead w-full"]'],
   facebook: ['[aria-label="Stories"]', '[role="main"]'],
+  instagram: ['[role="main"]', '[role="contentinfo"]'],
 };
 
 function hideFeed() {
