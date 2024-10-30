@@ -4,12 +4,14 @@ const siteMap = {
   x: ["x.com", "twitter.com"],
   linkedin: ["www.linkedin.com"],
   reddit: ["www.reddit.com"],
+  facebook: ["www.facebook.com"],
 };
 
 const siteFeedSelectors = {
   x: ['[aria-label="Timeline: Your Home Timeline"]', '[aria-label="Home"]'],
   linkedin: ['[aria-label="Main Feed"]'],
   reddit: ["main", '[class="masthead w-full"]'],
+  facebook: ['[aria-label="Stories"]', '[role="main"]'],
 };
 
 function hideFeed() {
