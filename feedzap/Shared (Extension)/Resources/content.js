@@ -1,6 +1,8 @@
+console.log("loaded content.js");
+
 const siteMap = {
   x: ["x.com", "twitter.com"],
-  linkedin: ["linkedin.com"],
+  linkedin: ["www.linkedin.com"],
 };
 
 const siteFeedSelectors = {
@@ -8,28 +10,27 @@ const siteFeedSelectors = {
   linkedin: ['[aria-label="Main Feed"]'],
 };
 
-function getSiteFeedSelectors(site) {
-  switch (site) {
-    case "x":
-      return siteFeedSelectors.x;
-    case "linkedin":
-      return siteFeedSelectors.linkedin;
-    default:
-      return siteFeedSelectors.x;
-  }
-}
-
 function hideFeed() {
   const domain = location.hostname;
-  console.log(domain);
-  const selectors = getSiteFeedSelectors(siteMap[domain]);
-  hideElement(selector);
+  let site;
+  for (const key in siteMap) {
+    if (siteMap[key].includes(domain)) {
+      site = key;
+      break;
+    }
+  }
+  const selectors = siteFeedSelectors[site];
+  for (const selector of selectors) {
+    hideElement(selector);
+  }
 }
 
 function hideElement(selector) {
   const element = document.querySelector(selector);
   if (element) {
     element.style.display = "none";
+  } else {
+    console.log("Could not find element with selector", selector);
   }
 }
 
