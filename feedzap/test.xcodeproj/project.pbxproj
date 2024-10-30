@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FAD8EBD2CC8C74700908146 /* feedzap Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7FAD8EBC2CC8C74700908146 /* feedzap Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7FAD8EC72CC8C74700908146 /* feedzap Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7FAD8EC62CC8C74700908146 /* feedzap Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F3761A02CD1B7DF000D2603 /* test Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7F37619F2CD1B7DF000D2603 /* test Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F3761AA2CD1B7DF000D2603 /* test Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7F3761A92CD1B7DF000D2603 /* test Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7FAD8EBE2CC8C74700908146 /* PBXContainerItemProxy */ = {
+		7F3761A12CD1B7DF000D2603 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FAD8E822CC8C74700908146 /* Project object */;
+			containerPortal = 7F3761652CD1B7DE000D2603 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FAD8EBB2CC8C74700908146;
-			remoteInfo = "feedzap Extension (iOS)";
+			remoteGlobalIDString = 7F37619E2CD1B7DF000D2603;
+			remoteInfo = "test Extension (iOS)";
 		};
-		7FAD8EC82CC8C74700908146 /* PBXContainerItemProxy */ = {
+		7F3761AB2CD1B7DF000D2603 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FAD8E822CC8C74700908146 /* Project object */;
+			containerPortal = 7F3761652CD1B7DE000D2603 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FAD8EC52CC8C74700908146;
-			remoteInfo = "feedzap Extension (macOS)";
+			remoteGlobalIDString = 7F3761A82CD1B7DF000D2603;
+			remoteInfo = "test Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7FAD8EF02CC8C74700908146 /* Embed Foundation Extensions */ = {
+		7F3761D32CD1B7DF000D2603 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				7FAD8EBD2CC8C74700908146 /* feedzap Extension.appex in Embed Foundation Extensions */,
+				7F3761A02CD1B7DF000D2603 /* test Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EFA2CC8C74700908146 /* Embed Foundation Extensions */ = {
+		7F3761DD2CD1B7DF000D2603 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				7FAD8EC72CC8C74700908146 /* feedzap Extension.appex in Embed Foundation Extensions */,
+				7F3761AA2CD1B7DF000D2603 /* test Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,15 +54,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7FAD8E9E2CC8C74700908146 /* feedzap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feedzap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FAD8EB02CC8C74700908146 /* feedzap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feedzap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FAD8EBC2CC8C74700908146 /* feedzap Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "feedzap Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FAD8EC62CC8C74700908146 /* feedzap Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "feedzap Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FAD8F082CC8C7EA00908146 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7F3761812CD1B7DF000D2603 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3761932CD1B7DF000D2603 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F37619F2CD1B7DF000D2603 /* test Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "test Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3761A92CD1B7DF000D2603 /* test Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "test Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7FAD8EEB2CC8C74700908146 /* Exceptions for "Shared (App)" folder in "feedzap (iOS)" target */ = {
+		7F3761CE2CD1B7DF000D2603 /* Exceptions for "Shared (App)" folder in "test (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
@@ -72,23 +71,23 @@
 				Resources/Style.css,
 				ViewController.swift,
 			);
-			target = 7FAD8E9D2CC8C74700908146 /* feedzap (iOS) */;
+			target = 7F3761802CD1B7DF000D2603 /* test (iOS) */;
 		};
-		7FAD8EEF2CC8C74700908146 /* Exceptions for "iOS (Extension)" folder in "feedzap Extension (iOS)" target */ = {
+		7F3761D22CD1B7DF000D2603 /* Exceptions for "iOS (Extension)" folder in "test Extension (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 7FAD8EBB2CC8C74700908146 /* feedzap Extension (iOS) */;
+			target = 7F37619E2CD1B7DF000D2603 /* test Extension (iOS) */;
 		};
-		7FAD8EF42CC8C74700908146 /* Exceptions for "iOS (App)" folder in "feedzap (iOS)" target */ = {
+		7F3761D72CD1B7DF000D2603 /* Exceptions for "iOS (App)" folder in "test (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 7FAD8E9D2CC8C74700908146 /* feedzap (iOS) */;
+			target = 7F3761802CD1B7DF000D2603 /* test (iOS) */;
 		};
-		7FAD8EF52CC8C74700908146 /* Exceptions for "Shared (App)" folder in "feedzap (macOS)" target */ = {
+		7F3761D82CD1B7DF000D2603 /* Exceptions for "Shared (App)" folder in "test (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
@@ -98,20 +97,21 @@
 				Resources/Style.css,
 				ViewController.swift,
 			);
-			target = 7FAD8EAF2CC8C74700908146 /* feedzap (macOS) */;
+			target = 7F3761922CD1B7DF000D2603 /* test (macOS) */;
 		};
-		7FAD8EF92CC8C74700908146 /* Exceptions for "macOS (Extension)" folder in "feedzap Extension (macOS)" target */ = {
+		7F3761DC2CD1B7DF000D2603 /* Exceptions for "macOS (Extension)" folder in "test Extension (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 7FAD8EC52CC8C74700908146 /* feedzap Extension (macOS) */;
+			target = 7F3761A82CD1B7DF000D2603 /* test Extension (macOS) */;
 		};
-		7FAD8EFE2CC8C74700908146 /* Exceptions for "Shared (Extension)" folder in "feedzap Extension (iOS)" target */ = {
+		7F3761E12CD1B7DF000D2603 /* Exceptions for "Shared (Extension)" folder in "test Extension (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
 				Resources/background.js,
+				Resources/content.js,
 				Resources/images,
 				Resources/manifest.json,
 				Resources/popup.css,
@@ -119,13 +119,14 @@
 				Resources/popup.js,
 				SafariWebExtensionHandler.swift,
 			);
-			target = 7FAD8EBB2CC8C74700908146 /* feedzap Extension (iOS) */;
+			target = 7F37619E2CD1B7DF000D2603 /* test Extension (iOS) */;
 		};
-		7FAD8EFF2CC8C74700908146 /* Exceptions for "Shared (Extension)" folder in "feedzap Extension (macOS)" target */ = {
+		7F3761E22CD1B7DF000D2603 /* Exceptions for "Shared (Extension)" folder in "test Extension (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
 				Resources/background.js,
+				Resources/content.js,
 				Resources/images,
 				Resources/manifest.json,
 				Resources/popup.css,
@@ -133,25 +134,25 @@
 				Resources/popup.js,
 				SafariWebExtensionHandler.swift,
 			);
-			target = 7FAD8EC52CC8C74700908146 /* feedzap Extension (macOS) */;
+			target = 7F3761A82CD1B7DF000D2603 /* test Extension (macOS) */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7FAD8E862CC8C74700908146 /* Shared (App) */ = {
+		7F3761692CD1B7DE000D2603 /* Shared (App) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7FAD8EEB2CC8C74700908146 /* Exceptions for "Shared (App)" folder in "feedzap (iOS)" target */,
-				7FAD8EF52CC8C74700908146 /* Exceptions for "Shared (App)" folder in "feedzap (macOS)" target */,
+				7F3761CE2CD1B7DF000D2603 /* Exceptions for "Shared (App)" folder in "test (iOS)" target */,
+				7F3761D82CD1B7DF000D2603 /* Exceptions for "Shared (App)" folder in "test (macOS)" target */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		7FAD8E8F2CC8C74700908146 /* Shared (Extension) */ = {
+		7F3761722CD1B7DF000D2603 /* Shared (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7FAD8EFE2CC8C74700908146 /* Exceptions for "Shared (Extension)" folder in "feedzap Extension (iOS)" target */,
-				7FAD8EFF2CC8C74700908146 /* Exceptions for "Shared (Extension)" folder in "feedzap Extension (macOS)" target */,
+				7F3761E12CD1B7DF000D2603 /* Exceptions for "Shared (Extension)" folder in "test Extension (iOS)" target */,
+				7F3761E22CD1B7DF000D2603 /* Exceptions for "Shared (Extension)" folder in "test Extension (macOS)" target */,
 			);
 			explicitFolders = (
 				Resources/_locales,
@@ -160,31 +161,31 @@
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		7FAD8EA02CC8C74700908146 /* iOS (App) */ = {
+		7F3761832CD1B7DF000D2603 /* iOS (App) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7FAD8EF42CC8C74700908146 /* Exceptions for "iOS (App)" folder in "feedzap (iOS)" target */,
+				7F3761D72CD1B7DF000D2603 /* Exceptions for "iOS (App)" folder in "test (iOS)" target */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
-		7FAD8EB12CC8C74700908146 /* macOS (App) */ = {
+		7F3761942CD1B7DF000D2603 /* macOS (App) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "macOS (App)";
 			sourceTree = "<group>";
 		};
-		7FAD8EC02CC8C74700908146 /* iOS (Extension) */ = {
+		7F3761A32CD1B7DF000D2603 /* iOS (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7FAD8EEF2CC8C74700908146 /* Exceptions for "iOS (Extension)" folder in "feedzap Extension (iOS)" target */,
+				7F3761D22CD1B7DF000D2603 /* Exceptions for "iOS (Extension)" folder in "test Extension (iOS)" target */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
-		7FAD8ECA2CC8C74700908146 /* macOS (Extension) */ = {
+		7F3761AD2CD1B7DF000D2603 /* macOS (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7FAD8EF92CC8C74700908146 /* Exceptions for "macOS (Extension)" folder in "feedzap Extension (macOS)" target */,
+				7F3761DC2CD1B7DF000D2603 /* Exceptions for "macOS (Extension)" folder in "test Extension (macOS)" target */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -192,28 +193,28 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FAD8E9B2CC8C74700908146 /* Frameworks */ = {
+		7F37617E2CD1B7DF000D2603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EAD2CC8C74700908146 /* Frameworks */ = {
+		7F3761902CD1B7DF000D2603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EB92CC8C74700908146 /* Frameworks */ = {
+		7F37619C2CD1B7DF000D2603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EC32CC8C74700908146 /* Frameworks */ = {
+		7F3761A62CD1B7DF000D2603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,203 +224,194 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7FAD8E812CC8C74700908146 = {
+		7F3761642CD1B7DE000D2603 = {
 			isa = PBXGroup;
 			children = (
-				7FAD8E862CC8C74700908146 /* Shared (App) */,
-				7FAD8E8F2CC8C74700908146 /* Shared (Extension) */,
-				7FAD8EA02CC8C74700908146 /* iOS (App) */,
-				7FAD8EB12CC8C74700908146 /* macOS (App) */,
-				7FAD8EC02CC8C74700908146 /* iOS (Extension) */,
-				7FAD8ECA2CC8C74700908146 /* macOS (Extension) */,
-				7FAD8F072CC8C7EA00908146 /* Frameworks */,
-				7FAD8E9F2CC8C74700908146 /* Products */,
+				7F3761692CD1B7DE000D2603 /* Shared (App) */,
+				7F3761722CD1B7DF000D2603 /* Shared (Extension) */,
+				7F3761832CD1B7DF000D2603 /* iOS (App) */,
+				7F3761942CD1B7DF000D2603 /* macOS (App) */,
+				7F3761A32CD1B7DF000D2603 /* iOS (Extension) */,
+				7F3761AD2CD1B7DF000D2603 /* macOS (Extension) */,
+				7F3761822CD1B7DF000D2603 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7FAD8E9F2CC8C74700908146 /* Products */ = {
+		7F3761822CD1B7DF000D2603 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FAD8E9E2CC8C74700908146 /* feedzap.app */,
-				7FAD8EB02CC8C74700908146 /* feedzap.app */,
-				7FAD8EBC2CC8C74700908146 /* feedzap Extension.appex */,
-				7FAD8EC62CC8C74700908146 /* feedzap Extension.appex */,
+				7F3761812CD1B7DF000D2603 /* test.app */,
+				7F3761932CD1B7DF000D2603 /* test.app */,
+				7F37619F2CD1B7DF000D2603 /* test Extension.appex */,
+				7F3761A92CD1B7DF000D2603 /* test Extension.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7FAD8F072CC8C7EA00908146 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7FAD8F082CC8C7EA00908146 /* Cocoa.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FAD8E9D2CC8C74700908146 /* feedzap (iOS) */ = {
+		7F3761802CD1B7DF000D2603 /* test (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAD8EF12CC8C74700908146 /* Build configuration list for PBXNativeTarget "feedzap (iOS)" */;
+			buildConfigurationList = 7F3761D42CD1B7DF000D2603 /* Build configuration list for PBXNativeTarget "test (iOS)" */;
 			buildPhases = (
-				7FAD8E9A2CC8C74700908146 /* Sources */,
-				7FAD8E9B2CC8C74700908146 /* Frameworks */,
-				7FAD8E9C2CC8C74700908146 /* Resources */,
-				7FAD8EF02CC8C74700908146 /* Embed Foundation Extensions */,
+				7F37617D2CD1B7DF000D2603 /* Sources */,
+				7F37617E2CD1B7DF000D2603 /* Frameworks */,
+				7F37617F2CD1B7DF000D2603 /* Resources */,
+				7F3761D32CD1B7DF000D2603 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FAD8EBF2CC8C74700908146 /* PBXTargetDependency */,
+				7F3761A22CD1B7DF000D2603 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7FAD8EA02CC8C74700908146 /* iOS (App) */,
+				7F3761832CD1B7DF000D2603 /* iOS (App) */,
 			);
-			name = "feedzap (iOS)";
+			name = "test (iOS)";
 			packageProductDependencies = (
 			);
-			productName = "feedzap (iOS)";
-			productReference = 7FAD8E9E2CC8C74700908146 /* feedzap.app */;
+			productName = "test (iOS)";
+			productReference = 7F3761812CD1B7DF000D2603 /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FAD8EAF2CC8C74700908146 /* feedzap (macOS) */ = {
+		7F3761922CD1B7DF000D2603 /* test (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAD8EFB2CC8C74700908146 /* Build configuration list for PBXNativeTarget "feedzap (macOS)" */;
+			buildConfigurationList = 7F3761DE2CD1B7DF000D2603 /* Build configuration list for PBXNativeTarget "test (macOS)" */;
 			buildPhases = (
-				7FAD8EAC2CC8C74700908146 /* Sources */,
-				7FAD8EAD2CC8C74700908146 /* Frameworks */,
-				7FAD8EAE2CC8C74700908146 /* Resources */,
-				7FAD8EFA2CC8C74700908146 /* Embed Foundation Extensions */,
+				7F37618F2CD1B7DF000D2603 /* Sources */,
+				7F3761902CD1B7DF000D2603 /* Frameworks */,
+				7F3761912CD1B7DF000D2603 /* Resources */,
+				7F3761DD2CD1B7DF000D2603 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FAD8EC92CC8C74700908146 /* PBXTargetDependency */,
+				7F3761AC2CD1B7DF000D2603 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7FAD8EB12CC8C74700908146 /* macOS (App) */,
+				7F3761942CD1B7DF000D2603 /* macOS (App) */,
 			);
-			name = "feedzap (macOS)";
+			name = "test (macOS)";
 			packageProductDependencies = (
 			);
-			productName = "feedzap (macOS)";
-			productReference = 7FAD8EB02CC8C74700908146 /* feedzap.app */;
+			productName = "test (macOS)";
+			productReference = 7F3761932CD1B7DF000D2603 /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FAD8EBB2CC8C74700908146 /* feedzap Extension (iOS) */ = {
+		7F37619E2CD1B7DF000D2603 /* test Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAD8EEC2CC8C74700908146 /* Build configuration list for PBXNativeTarget "feedzap Extension (iOS)" */;
+			buildConfigurationList = 7F3761CF2CD1B7DF000D2603 /* Build configuration list for PBXNativeTarget "test Extension (iOS)" */;
 			buildPhases = (
-				7FAD8EB82CC8C74700908146 /* Sources */,
-				7FAD8EB92CC8C74700908146 /* Frameworks */,
-				7FAD8EBA2CC8C74700908146 /* Resources */,
+				7F37619B2CD1B7DF000D2603 /* Sources */,
+				7F37619C2CD1B7DF000D2603 /* Frameworks */,
+				7F37619D2CD1B7DF000D2603 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7FAD8EC02CC8C74700908146 /* iOS (Extension) */,
+				7F3761A32CD1B7DF000D2603 /* iOS (Extension) */,
 			);
-			name = "feedzap Extension (iOS)";
+			name = "test Extension (iOS)";
 			packageProductDependencies = (
 			);
-			productName = "feedzap Extension (iOS)";
-			productReference = 7FAD8EBC2CC8C74700908146 /* feedzap Extension.appex */;
+			productName = "test Extension (iOS)";
+			productReference = 7F37619F2CD1B7DF000D2603 /* test Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		7FAD8EC52CC8C74700908146 /* feedzap Extension (macOS) */ = {
+		7F3761A82CD1B7DF000D2603 /* test Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAD8EF62CC8C74700908146 /* Build configuration list for PBXNativeTarget "feedzap Extension (macOS)" */;
+			buildConfigurationList = 7F3761D92CD1B7DF000D2603 /* Build configuration list for PBXNativeTarget "test Extension (macOS)" */;
 			buildPhases = (
-				7FAD8EC22CC8C74700908146 /* Sources */,
-				7FAD8EC32CC8C74700908146 /* Frameworks */,
-				7FAD8EC42CC8C74700908146 /* Resources */,
+				7F3761A52CD1B7DF000D2603 /* Sources */,
+				7F3761A62CD1B7DF000D2603 /* Frameworks */,
+				7F3761A72CD1B7DF000D2603 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7FAD8ECA2CC8C74700908146 /* macOS (Extension) */,
+				7F3761AD2CD1B7DF000D2603 /* macOS (Extension) */,
 			);
-			name = "feedzap Extension (macOS)";
+			name = "test Extension (macOS)";
 			packageProductDependencies = (
 			);
-			productName = "feedzap Extension (macOS)";
-			productReference = 7FAD8EC62CC8C74700908146 /* feedzap Extension.appex */;
+			productName = "test Extension (macOS)";
+			productReference = 7F3761A92CD1B7DF000D2603 /* test Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7FAD8E822CC8C74700908146 /* Project object */ = {
+		7F3761652CD1B7DE000D2603 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					7FAD8E9D2CC8C74700908146 = {
+					7F3761802CD1B7DF000D2603 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					7FAD8EAF2CC8C74700908146 = {
+					7F3761922CD1B7DF000D2603 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					7FAD8EBB2CC8C74700908146 = {
+					7F37619E2CD1B7DF000D2603 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					7FAD8EC52CC8C74700908146 = {
+					7F3761A82CD1B7DF000D2603 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 7FAD8E852CC8C74700908146 /* Build configuration list for PBXProject "feedzap" */;
+			buildConfigurationList = 7F3761682CD1B7DE000D2603 /* Build configuration list for PBXProject "test" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7FAD8E812CC8C74700908146;
+			mainGroup = 7F3761642CD1B7DE000D2603;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 7FAD8E9F2CC8C74700908146 /* Products */;
+			productRefGroup = 7F3761822CD1B7DF000D2603 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FAD8E9D2CC8C74700908146 /* feedzap (iOS) */,
-				7FAD8EAF2CC8C74700908146 /* feedzap (macOS) */,
-				7FAD8EBB2CC8C74700908146 /* feedzap Extension (iOS) */,
-				7FAD8EC52CC8C74700908146 /* feedzap Extension (macOS) */,
+				7F3761802CD1B7DF000D2603 /* test (iOS) */,
+				7F3761922CD1B7DF000D2603 /* test (macOS) */,
+				7F37619E2CD1B7DF000D2603 /* test Extension (iOS) */,
+				7F3761A82CD1B7DF000D2603 /* test Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7FAD8E9C2CC8C74700908146 /* Resources */ = {
+		7F37617F2CD1B7DF000D2603 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EAE2CC8C74700908146 /* Resources */ = {
+		7F3761912CD1B7DF000D2603 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EBA2CC8C74700908146 /* Resources */ = {
+		7F37619D2CD1B7DF000D2603 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EC42CC8C74700908146 /* Resources */ = {
+		7F3761A72CD1B7DF000D2603 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,28 +421,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7FAD8E9A2CC8C74700908146 /* Sources */ = {
+		7F37617D2CD1B7DF000D2603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EAC2CC8C74700908146 /* Sources */ = {
+		7F37618F2CD1B7DF000D2603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EB82CC8C74700908146 /* Sources */ = {
+		7F37619B2CD1B7DF000D2603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAD8EC22CC8C74700908146 /* Sources */ = {
+		7F3761A52CD1B7DF000D2603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,20 +452,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7FAD8EBF2CC8C74700908146 /* PBXTargetDependency */ = {
+		7F3761A22CD1B7DF000D2603 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FAD8EBB2CC8C74700908146 /* feedzap Extension (iOS) */;
-			targetProxy = 7FAD8EBE2CC8C74700908146 /* PBXContainerItemProxy */;
+			target = 7F37619E2CD1B7DF000D2603 /* test Extension (iOS) */;
+			targetProxy = 7F3761A12CD1B7DF000D2603 /* PBXContainerItemProxy */;
 		};
-		7FAD8EC92CC8C74700908146 /* PBXTargetDependency */ = {
+		7F3761AC2CD1B7DF000D2603 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FAD8EC52CC8C74700908146 /* feedzap Extension (macOS) */;
-			targetProxy = 7FAD8EC82CC8C74700908146 /* PBXContainerItemProxy */;
+			target = 7F3761A82CD1B7DF000D2603 /* test Extension (macOS) */;
+			targetProxy = 7F3761AB2CD1B7DF000D2603 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7FAD8EED2CC8C74700908146 /* Debug */ = {
+		7F3761D02CD1B7DF000D2603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -481,7 +473,7 @@
 				DEVELOPMENT_TEAM = JU72232S5L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "feedzap Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "test Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,8 +486,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.feedzap1.Extension;
-				PRODUCT_NAME = "feedzap Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.test.Extension;
+				PRODUCT_NAME = "test Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -504,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		7FAD8EEE2CC8C74700908146 /* Release */ = {
+		7F3761D12CD1B7DF000D2603 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -512,7 +504,7 @@
 				DEVELOPMENT_TEAM = JU72232S5L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "feedzap Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "test Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -525,8 +517,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.feedzap1.Extension;
-				PRODUCT_NAME = "feedzap Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.test.Extension;
+				PRODUCT_NAME = "test Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -536,7 +528,7 @@
 			};
 			name = Release;
 		};
-		7FAD8EF22CC8C74700908146 /* Debug */ = {
+		7F3761D52CD1B7DF000D2603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -546,7 +538,7 @@
 				DEVELOPMENT_TEAM = JU72232S5L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = feedzap;
+				INFOPLIST_KEY_CFBundleDisplayName = test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -564,8 +556,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.feedzap1;
-				PRODUCT_NAME = feedzap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.test;
+				PRODUCT_NAME = test;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -573,7 +565,7 @@
 			};
 			name = Debug;
 		};
-		7FAD8EF32CC8C74700908146 /* Release */ = {
+		7F3761D62CD1B7DF000D2603 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -583,7 +575,7 @@
 				DEVELOPMENT_TEAM = JU72232S5L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = feedzap;
+				INFOPLIST_KEY_CFBundleDisplayName = test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -601,8 +593,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.feedzap1;
-				PRODUCT_NAME = feedzap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.test;
+				PRODUCT_NAME = test;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -611,17 +603,17 @@
 			};
 			name = Release;
 		};
-		7FAD8EF72CC8C74700908146 /* Debug */ = {
+		7F3761DA2CD1B7DF000D2603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/feedzap.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JU72232S5L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "feedzap Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "test Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -634,8 +626,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.feedzap.Extension;
-				PRODUCT_NAME = "feedzap Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.test.Extension;
+				PRODUCT_NAME = "test Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -643,17 +635,17 @@
 			};
 			name = Debug;
 		};
-		7FAD8EF82CC8C74700908146 /* Release */ = {
+		7F3761DB2CD1B7DF000D2603 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/feedzap.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JU72232S5L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "feedzap Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "test Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -666,8 +658,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.feedzap.Extension;
-				PRODUCT_NAME = "feedzap Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.test.Extension;
+				PRODUCT_NAME = "test Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -675,18 +667,18 @@
 			};
 			name = Release;
 		};
-		7FAD8EFC2CC8C74700908146 /* Debug */ = {
+		7F3761DF2CD1B7DF000D2603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/feedzap.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JU72232S5L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = feedzap;
+				INFOPLIST_KEY_CFBundleDisplayName = test;
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -701,26 +693,26 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.feedzap;
-				PRODUCT_NAME = feedzap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.test;
+				PRODUCT_NAME = test;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		7FAD8EFD2CC8C74700908146 /* Release */ = {
+		7F3761E02CD1B7DF000D2603 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/feedzap.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JU72232S5L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = feedzap;
+				INFOPLIST_KEY_CFBundleDisplayName = test;
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -735,15 +727,15 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.feedzap;
-				PRODUCT_NAME = feedzap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riegerjared.test;
+				PRODUCT_NAME = test;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		7FAD8F002CC8C74700908146 /* Debug */ = {
+		7F3761E32CD1B7DF000D2603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -804,7 +796,7 @@
 			};
 			name = Debug;
 		};
-		7FAD8F012CC8C74700908146 /* Release */ = {
+		7F3761E42CD1B7DF000D2603 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -860,52 +852,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FAD8E852CC8C74700908146 /* Build configuration list for PBXProject "feedzap" */ = {
+		7F3761682CD1B7DE000D2603 /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAD8F002CC8C74700908146 /* Debug */,
-				7FAD8F012CC8C74700908146 /* Release */,
+				7F3761E32CD1B7DF000D2603 /* Debug */,
+				7F3761E42CD1B7DF000D2603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAD8EEC2CC8C74700908146 /* Build configuration list for PBXNativeTarget "feedzap Extension (iOS)" */ = {
+		7F3761CF2CD1B7DF000D2603 /* Build configuration list for PBXNativeTarget "test Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAD8EED2CC8C74700908146 /* Debug */,
-				7FAD8EEE2CC8C74700908146 /* Release */,
+				7F3761D02CD1B7DF000D2603 /* Debug */,
+				7F3761D12CD1B7DF000D2603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAD8EF12CC8C74700908146 /* Build configuration list for PBXNativeTarget "feedzap (iOS)" */ = {
+		7F3761D42CD1B7DF000D2603 /* Build configuration list for PBXNativeTarget "test (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAD8EF22CC8C74700908146 /* Debug */,
-				7FAD8EF32CC8C74700908146 /* Release */,
+				7F3761D52CD1B7DF000D2603 /* Debug */,
+				7F3761D62CD1B7DF000D2603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAD8EF62CC8C74700908146 /* Build configuration list for PBXNativeTarget "feedzap Extension (macOS)" */ = {
+		7F3761D92CD1B7DF000D2603 /* Build configuration list for PBXNativeTarget "test Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAD8EF72CC8C74700908146 /* Debug */,
-				7FAD8EF82CC8C74700908146 /* Release */,
+				7F3761DA2CD1B7DF000D2603 /* Debug */,
+				7F3761DB2CD1B7DF000D2603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAD8EFB2CC8C74700908146 /* Build configuration list for PBXNativeTarget "feedzap (macOS)" */ = {
+		7F3761DE2CD1B7DF000D2603 /* Build configuration list for PBXNativeTarget "test (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAD8EFC2CC8C74700908146 /* Debug */,
-				7FAD8EFD2CC8C74700908146 /* Release */,
+				7F3761DF2CD1B7DF000D2603 /* Debug */,
+				7F3761E02CD1B7DF000D2603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7FAD8E822CC8C74700908146 /* Project object */;
+	rootObject = 7F3761652CD1B7DE000D2603 /* Project object */;
 }

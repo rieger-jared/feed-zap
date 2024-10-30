@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  macOS (App)
 //
-//  Created by Jared Rieger on 23.10.24.
+//  Created by Jared Rieger on 30.10.24.
 //
 
 import Cocoa
