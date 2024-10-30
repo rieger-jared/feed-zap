@@ -42,7 +42,7 @@ const siteFeedSelectors = {
     '[data-e2e="video-card"]',
     '[id="tiktok-webapp-mobile-player-container"]',
   ],
-  youtube: ['[id="primary"]'],
+  youtube: ['[page-subtype="home"]', '[id="secondary"]'],
   youtube_mobile: ['[class="page-container"]'],
 };
 
