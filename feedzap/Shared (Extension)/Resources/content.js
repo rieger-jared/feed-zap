@@ -39,6 +39,8 @@ const siteFeedSelectors = {
     '[data-e2e="nav-explore"]',
     '[data-e2e="nav-following"]',
     '[data-e2e="nav-live"]',
+    '[data-e2e="video-card"]',
+    '[id="tiktok-webapp-mobile-player-container"]',
   ],
   youtube: ['[id="primary"]'],
   youtube_mobile: ['[class="page-container"]'],
