@@ -1,0 +1,3 @@
+div[aria-label="Home timeline"] div:has([aria-selected="true"][aria-controls="tab-for-you"]) ~ div[aria-label="Timeline: Your Home Timeline"] {
+  display: none !important;
+}
