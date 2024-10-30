@@ -64,7 +64,7 @@ function hideFeed() {
 function hideElement(selector) {
   const element = document.querySelector(selector);
   if (element) {
-    element.style.display = "none";
+    element.remove();
   }
   // else {
   //   console.log("Could not find element with selector", selector);
