@@ -3,15 +3,18 @@ console.log("loaded content.js");
 const siteMap = {
   x: ["x.com", "twitter.com"],
   linkedin: ["www.linkedin.com"],
+  reddit: ["www.reddit.com"],
 };
 
 const siteFeedSelectors = {
   x: ['[aria-label="Timeline: Your Home Timeline"]', '[aria-label="Home"]'],
   linkedin: ['[aria-label="Main Feed"]'],
+  reddit: ["main", '[class="masthead w-full"]'],
 };
 
 function hideFeed() {
   const domain = location.hostname;
+  console.log(domain);
   let site;
   for (const key in siteMap) {
     if (siteMap[key].includes(domain)) {
@@ -29,9 +32,10 @@ function hideElement(selector) {
   const element = document.querySelector(selector);
   if (element) {
     element.style.display = "none";
-  } else {
-    console.log("Could not find element with selector", selector);
   }
+  // else {
+  //   console.log("Could not find element with selector", selector);
+  // }
 }
 
 // Retry mechanism
