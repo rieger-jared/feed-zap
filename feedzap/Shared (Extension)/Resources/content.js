@@ -8,6 +8,7 @@ const siteMap = {
   instagram: ["www.instagram.com"],
   tiktok: ["www.tiktok.com"],
   youtube: ["www.youtube.com"],
+  youtube_mobile: ["m.youtube.com"],
 };
 
 const siteFeedSelectors = {
@@ -34,6 +35,7 @@ const siteFeedSelectors = {
     '[data-e2e="nav-live"]',
   ],
   youtube: ['[id="primary"]'],
+  youtube_mobile: ['[class="page-container"]'],
 };
 
 function hideFeed() {
