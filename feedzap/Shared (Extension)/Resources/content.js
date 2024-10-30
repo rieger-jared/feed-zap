@@ -18,7 +18,11 @@ const siteFeedSelectors = {
     '[aria-label="Trending"]',
     '[aria-label="New posts are available. Push the full stop key to go to them."]',
   ],
-  linkedin: ['[aria-label="Main Feed"]', '[aria-label="LinkedIn News"]'],
+  linkedin: [
+    '[aria-label="Main Feed"]',
+    '[aria-label="LinkedIn News"]',
+    '[id="app-container"]',
+  ],
   reddit: [
     "main",
     '[class="masthead w-full"]',
