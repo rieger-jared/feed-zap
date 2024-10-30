@@ -33,7 +33,8 @@
               "*://www.youtube.com/*",
               "*://m.youtube.com/"
             ],
-            "js": ["content.js"]
+            "js": ["content.js"],
+            "run_at": "document_end"
         }
       ],
 
