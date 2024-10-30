@@ -6,6 +6,7 @@ const siteMap = {
   reddit: ["www.reddit.com"],
   facebook: ["www.facebook.com"],
   instagram: ["www.instagram.com"],
+  tiktok: ["www.tiktok.com"],
 };
 
 const siteFeedSelectors = {
@@ -14,6 +15,7 @@ const siteFeedSelectors = {
   reddit: ["main", '[class="masthead w-full"]'],
   facebook: ['[aria-label="Stories"]', '[role="main"]'],
   instagram: ['[role="main"]', '[role="contentinfo"]'],
+  tiktok: ['[id="main-content-explore_page"]'],
 };
 
 function hideFeed() {
