@@ -7,6 +7,7 @@ const siteMap = {
   facebook: ["www.facebook.com"],
   instagram: ["www.instagram.com"],
   tiktok: ["www.tiktok.com"],
+  youtube: ["www.youtube.com"],
 };
 
 const siteFeedSelectors = {
@@ -16,11 +17,11 @@ const siteFeedSelectors = {
   facebook: ['[aria-label="Stories"]', '[role="main"]'],
   instagram: ['[role="main"]', '[role="contentinfo"]'],
   tiktok: ['[id="main-content-explore_page"]'],
+  youtube: ['[id="primary"]'],
 };
 
 function hideFeed() {
   const domain = location.hostname;
-  console.log(domain);
   let site;
   for (const key in siteMap) {
     if (siteMap[key].includes(domain)) {
