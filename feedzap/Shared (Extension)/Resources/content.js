@@ -15,6 +15,7 @@ const siteFeedSelectors = {
     '[aria-label="Timeline: Your Home Timeline"]',
     '[aria-label="Home"]',
     '[aria-label="Trending"]',
+    '[aria-label="New posts are available. Push the full stop key to go to them."]',
   ],
   linkedin: ['[aria-label="Main Feed"]', '[aria-label="LinkedIn News"]'],
   reddit: [
