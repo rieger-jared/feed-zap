@@ -5,6 +5,7 @@ const siteMap = {
   linkedin: ["www.linkedin.com"],
   reddit: ["www.reddit.com"],
   facebook: ["www.facebook.com"],
+  facebook_mobile: ["m.facebook.com"],
   instagram: ["www.instagram.com"],
   tiktok: ["www.tiktok.com"],
   youtube: ["www.youtube.com"],
@@ -29,6 +30,7 @@ const siteFeedSelectors = {
     '[id="right-sidebar-container"]',
   ],
   facebook: ['[aria-label="Stories"]', '[role="main"]'],
+  facebook_mobile: ['[id="screen-root"]'],
   instagram: ['[role="main"]', '[role="contentinfo"]'],
   tiktok: [
     '[id="main-content-explore_page"]',
