@@ -11,7 +11,11 @@ const siteMap = {
 };
 
 const siteFeedSelectors = {
-  x: ['[aria-label="Timeline: Your Home Timeline"]', '[aria-label="Home"]'],
+  x: [
+    '[aria-label="Timeline: Your Home Timeline"]',
+    '[aria-label="Home"]',
+    '[aria-label="Trending"]',
+  ],
   linkedin: ['[aria-label="Main Feed"]', '[aria-label="LinkedIn News"]'],
   reddit: [
     "main",
